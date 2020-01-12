@@ -11,21 +11,21 @@
             <div class="q-pa-md q-gutter-md">
 
               <q-list bordered separator>
-                <q-item to="/configs/accounts" clickable v-ripple :active="active">
+                <q-item to="/configs/accounts" clickable v-ripple>
                   <q-item-section avatar>
                     <q-icon name="account_balance"></q-icon>
                   </q-item-section>
                   <q-item-section>Contas</q-item-section>
                 </q-item>
 
-                <q-item to="/configs/creditCards" clickable v-ripple :active="active">
+                <q-item to="/configs/creditCards" clickable v-ripple>
                   <q-item-section avatar>
                     <q-icon name="credit_card"></q-icon>
                   </q-item-section>
                   <q-item-section>Cartões</q-item-section>
                 </q-item>
 
-                <q-item to="/configs/people" clickable v-ripple :active="active">
+                <q-item to="/configs/people" clickable v-ripple>
                   <q-item-section avatar>
                     <q-icon name="people"></q-icon>
                   </q-item-section>

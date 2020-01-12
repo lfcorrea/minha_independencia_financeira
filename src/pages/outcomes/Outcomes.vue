@@ -1,11 +1,16 @@
 <template>
   <q-page class="flex flex-center">
-    DESPESAS
+    <YearOutcomes />
   </q-page>
 </template>
 
 <script>
+import YearOutcomes from '../../components/outcomes/YearOutcomes'
+
 export default {
-  name: 'Outcomes'
+  name: 'Outcomes',
+  components: {
+    YearOutcomes
+  }
 }
 </script>

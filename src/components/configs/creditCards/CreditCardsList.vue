@@ -7,6 +7,8 @@
                 v-bind:name="creditCard.name"
                 v-bind:brand="creditCard.brand"
                 v-bind:owner="creditCard.owner"
+                v-bind:closingDay="creditCard.closingDay"
+                v-bind:payDay="creditCard.closingDay"
             />
         </q-list>
         <q-btn @click="showAddCreditCardDialog = !showAddCreditCardDialog" round color="primary" icon="add" ></q-btn>
@@ -40,9 +42,9 @@ export default {
     return {
       showAddCreditCardDialog: false,
       creditCards: [
-        { id: '1', name: 'Person_1', brand: 'face', owner: 'blue' },
-        { id: '2', name: 'Person_2', brand: 'child_care', owner: 'yellow' },
-        { id: '3', name: 'Person_3', brand: 'pets', owner: 'green' }
+        { id: '1', name: 'Person_1', brand: 'face', owner: 'blue', closingDay: 1, payDay: 6 },
+        { id: '2', name: 'Person_2', brand: 'child_care', owner: 'yellow', closingDay: 3, payDay: 8 },
+        { id: '3', name: 'Person_3', brand: 'pets', owner: 'green', closingDay: 4, payDay: 10 }
       ]
     }
   },

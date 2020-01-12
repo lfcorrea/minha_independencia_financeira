@@ -37,12 +37,6 @@ export default {
   name: 'MyLayout',
   components: {
     Drawer
-  },
-
-  data () {
-    return {
-      leftDrawerOpen: false
-    }
   }
 }
 </script>

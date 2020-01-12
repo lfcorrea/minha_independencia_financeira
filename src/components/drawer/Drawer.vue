@@ -43,6 +43,11 @@ export default {
     FinancialIndependence,
     StocksRadar,
     Configs
+  },
+  data () {
+    return {
+      leftDrawerOpen: false
+    }
   }
 }
 </script>

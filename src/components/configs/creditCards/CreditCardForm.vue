@@ -2,13 +2,46 @@
     <div class="q-pa-md">
       <form @submit.prevent.stop="onSubmit" class="q-pa-md">
         <div class="row q-mb-md">
-          <q-input autogrow v-model="form.name" label="Nome" />
+          <q-input
+            autogrow
+            v-model="form.name"
+            label="Nome"
+            style="min-width: 200px"
+          />
         </div>
         <div class="row q-mb-md">
-          <SelectWithIcon :model="form.brand" :options="brands" label="Bandeira" />
+          <SelectWithIcon
+            :model="form.brand"
+            :options="brands"
+            label="Bandeira"
+            style="min-width: 200px"
+          />
         </div>
         <div class="row q-mb-md">
-          <SelectWithIcon v-bind:model="form.owner" :options="people" label="Dono" />
+          <SelectWithIcon
+            v-bind:model="form.owner"
+            :options="people"
+            label="Dono"
+            style="min-width: 200px"
+          />
+        </div>
+        <div>
+          <q-input
+            v-model.number="form.closingDay"
+            type="number"
+            style="max-width: 200px"
+            label="Dia de Fechamento"
+          >
+          </q-input>
+        </div>
+        <div>
+          <q-input
+            v-model.number="form.payDay"
+            type="number"
+            style="max-width: 200px"
+            label="Data de Pagamento"
+          >
+          </q-input>
         </div>
         <div>
           <q-btn label="OK--" type="submit" color="primary"></q-btn>
@@ -31,7 +64,9 @@ export default {
         id: null,
         name: null,
         brand: null,
-        owner: null
+        owner: null,
+        closingDay: null,
+        payDay: null
       },
       people: [
         { value: '1', label: 'Person_1', icon: 'face' },
