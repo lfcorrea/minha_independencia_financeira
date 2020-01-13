@@ -91,7 +91,7 @@ export default {
       ],
       data: [
         {
-          id: 1,
+          id: '8899afa5-8f60-41d3-9414-8d5a6f16371f',
           category: 'RENDA FAMILIAR TOTAL',
           valueJan: '1.000,00',
           valueFeb: '1.000,00',
@@ -110,7 +110,7 @@ export default {
           rowClass: 'group'
         },
         {
-          id: 2,
+          id: 'a1a1ec35-0938-4eec-aade-6cae713be628',
           category: 'Receitas Fixas',
           valueJan: '1.000,00',
           valueFeb: '1.000,00',
@@ -129,7 +129,7 @@ export default {
           rowClass: 'section'
         },
         {
-          id: 3,
+          id: '0e0d6df3-39c7-48bc-87cb-7df79bbd90d9',
           category: 'Salário Nando',
           valueJan: '1.000,00',
           valueFeb: '1.000,00',
@@ -148,7 +148,7 @@ export default {
           rowClass: 'category'
         },
         {
-          id: 4,
+          id: '2abc6433-b3aa-4011-8fb8-d80cf3e6c4b1',
           category: 'Salário Sheila',
           valueJan: '1.000,00',
           valueFeb: '1.000,00',
@@ -167,7 +167,7 @@ export default {
           rowClass: 'category'
         },
         {
-          id: 5,
+          id: '61a94cdf-39a5-47d4-ba9b-50f128a6ddb5',
           category: 'Aluguéis',
           valueJan: '1.000,00',
           valueFeb: '1.000,00',
@@ -186,7 +186,7 @@ export default {
           rowClass: 'category'
         },
         {
-          id: 6,
+          id: 'edc0bd33-9c01-472f-9c87-4b72996b457f',
           category: 'Receitas Variáveis',
           valueJan: '1.000,00',
           valueFeb: '1.000,00',
@@ -205,7 +205,7 @@ export default {
           rowClass: 'section'
         },
         {
-          id: 7,
+          id: '52b6cc62-c197-4716-8159-9e47495d074a',
           category: 'Tributadas',
           valueJan: '1.000,00',
           valueFeb: '1.000,00',
@@ -224,7 +224,7 @@ export default {
           rowClass: 'sub-section'
         },
         {
-          id: 8,
+          id: 'd903a43c-24ad-4120-a6cd-38bb09fa4956',
           category: 'Notas Fiscais Emitidas',
           valueJan: '1.000,00',
           valueFeb: '1.000,00',
@@ -243,7 +243,7 @@ export default {
           rowClass: 'category'
         },
         {
-          id: 9,
+          id: '93acc716-b1fb-41c0-a0f0-288d487e3fd6',
           category: 'Não Tributadas',
           valueJan: '1.000,00',
           valueFeb: '1.000,00',
@@ -262,7 +262,7 @@ export default {
           rowClass: 'sub-section'
         },
         {
-          id: 10,
+          id: 'e978125a-d937-4196-9b7b-0bae68b35953',
           category: '13. Salário Líquido',
           valueJan: '1.000,00',
           valueFeb: '1.000,00',
@@ -281,7 +281,7 @@ export default {
           rowClass: 'category'
         },
         {
-          id: 11,
+          id: 'bfda2dcb-f96f-43c7-ba48-477eb0230c3a',
           category: 'Férias',
           valueJan: '1.000,00',
           valueFeb: '1.000,00',
@@ -300,7 +300,7 @@ export default {
           rowClass: 'category'
         },
         {
-          id: 12,
+          id: '1bafba8b-c5a1-4df1-b4c0-a01283cdddd6',
           category: 'Bônus e Extras',
           valueJan: '1.000,00',
           valueFeb: '1.000,00',

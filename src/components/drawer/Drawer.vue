@@ -8,6 +8,7 @@
       >
         <div class="q-pa-md" style="max-width: 350px">
         <q-list bordered class="rounded-borders">
+          <YearlyBudget />
           <Incomes />
 
           <Outcomes />
@@ -27,6 +28,7 @@
 </template>
 
 <script>
+import YearlyBudget from './YearlyBudget'
 import Incomes from './Incomes'
 import Outcomes from './Outcomes'
 import Investiments from './Investiments'
@@ -37,6 +39,7 @@ import Configs from './Configs'
 export default {
   name: 'Drawer',
   components: {
+    YearlyBudget,
     Incomes,
     Outcomes,
     Investiments,

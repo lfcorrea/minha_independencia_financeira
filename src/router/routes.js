@@ -12,7 +12,8 @@ const routes = [
       { path: 'stocksRadar', component: () => import('pages/stocksRadar/StocksRadar.vue') },
       { path: 'configs/accounts', component: () => import('pages/configs/Accounts.vue') },
       { path: 'configs/creditCards', component: () => import('pages/configs/CreditCards.vue') },
-      { path: 'configs/people', component: () => import('pages/configs/People.vue') }
+      { path: 'configs/people', component: () => import('pages/configs/People.vue') },
+      { path: 'budget', component: () => import('pages/budget/Budget.vue') }
     ]
   }
 ]
