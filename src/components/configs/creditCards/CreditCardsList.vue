@@ -1,12 +1,12 @@
 <template>
     <div>
         <q-list bordered separator>
-            <CreditCardItem v-for="creditCard of creditCards"
+            <CreditCardItem v-for="creditCard of allCreditCards"
                 :key="creditCard.id"
                 v-bind:id="creditCard.id"
                 v-bind:name="creditCard.name"
-                v-bind:brand="creditCard.brand"
-                v-bind:owner="creditCard.owner"
+                v-bind:brandId="creditCard.brandId"
+                v-bind:ownerId="creditCard.ownerId"
                 v-bind:closingDay="creditCard.closingDay"
                 v-bind:payDay="creditCard.closingDay"
             />
@@ -29,6 +29,7 @@
 </template>
 
 <script>
+import { mapGetters, mapActions } from 'vuex'
 import CreditCardItem from './CreditCardItem'
 import CreditCardForm from './CreditCardForm'
 
@@ -40,18 +41,20 @@ export default {
   },
   data () {
     return {
-      showAddCreditCardDialog: false,
-      creditCards: [
-        { id: '1', name: 'Person_1', brand: 'face', owner: 'blue', closingDay: 1, payDay: 6 },
-        { id: '2', name: 'Person_2', brand: 'child_care', owner: 'yellow', closingDay: 3, payDay: 8 },
-        { id: '3', name: 'Person_3', brand: 'pets', owner: 'green', closingDay: 4, payDay: 10 }
-      ]
+      showAddCreditCardDialog: false
     }
   },
   methods: {
+    ...mapActions(['fetchCreditCards']),
     onAddPersonClick () {
       alert('Click')
     }
+  },
+  computed: {
+    ...mapGetters(['allCreditCards'])
+  },
+  created () {
+    this.fetchCreditCards()
   }
 }
 </script>

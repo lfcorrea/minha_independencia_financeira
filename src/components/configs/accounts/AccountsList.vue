@@ -1,13 +1,13 @@
 <template>
     <div>
         <q-list bordered separator>
-            <AccountItem v-for="account of accounts"
+            <AccountItem v-for="account of allAccounts"
                 :key="account.id"
                 v-bind:id="account.id"
                 v-bind:name="account.name"
-                v-bind:bank="account.bank"
+                v-bind:bank="account.bankId"
                 v-bind:icon="account.icon"
-                v-bind:owner="account.owner"
+                v-bind:owner="account.ownerId"
                 v-bind:type="account.type"
             />
         </q-list>
@@ -29,6 +29,7 @@
 </template>
 
 <script>
+import { mapGetters, mapActions } from 'vuex'
 import AccountItem from './AccountItem'
 import AccountForm from './AccountForm'
 
@@ -40,47 +41,20 @@ export default {
   },
   data () {
     return {
-      showAddAccountDialog: false,
-      accounts: [
-        {
-          id: '1',
-          bank: 'Santander',
-          name: 'Conta Corrente Santander',
-          icon: 'account_balance',
-          owner: 'Luiz Fernando',
-          type: 'Conta Corrente'
-        },
-        {
-          id: '2',
-          bank: 'Banco do Brasil',
-          name: 'Conta Corrente BB',
-          icon: 'account_balance',
-          owner: 'Luiz Fernando',
-          type: 'Conta Corrente'
-        },
-        {
-          id: '3',
-          bank: 'Banco do Brasil',
-          name: 'Poupança BB',
-          icon: 'account_balance',
-          owner: 'Luiz Fernando',
-          type: 'Poupança'
-        },
-        {
-          id: '4',
-          bank: 'Carteira',
-          name: 'Carteira Nando',
-          icon: 'account_balance_wallet',
-          owner: 'Luiz Fernando',
-          type: 'Carteira'
-        }
-      ]
+      showAddAccountDialog: false
     }
   },
   methods: {
+    ...mapActions(['fetchAccounts']),
     onAddPersonClick () {
       alert('Click')
     }
+  },
+  computed: {
+    ...mapGetters(['allAccounts'])
+  },
+  created () {
+    this.fetchAccounts()
   }
 }
 </script>

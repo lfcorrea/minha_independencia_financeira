@@ -1,13 +1,13 @@
 <template>
   <div>
-    <q-item v-ripple :active="active">
+    <q-item v-ripple>
       <q-item-section avatar>
         <q-icon :name="icon"></q-icon>
       </q-item-section>
       <q-item-section>
         <q-item-label>{{name}}</q-item-label>
-        <q-item-label caption>{{owner}}</q-item-label>
-        <q-item-label caption>{{bank}}</q-item-label>
+        <q-item-label caption>{{ownerId}}</q-item-label>
+        <q-item-label caption>{{bankId}}</q-item-label>
         <q-item-label caption>{{type}}</q-item-label>
       </q-item-section>
       <q-item-section class="q-pa-sm">
@@ -22,11 +22,11 @@ export default {
   name: 'AccountItem',
   props: [
     'id',
-    'bank',
+    'bankId',
     'icon',
     'name',
     'type',
-    'owner'
+    'ownerId'
   ],
   methods: {
     onEditClick () {

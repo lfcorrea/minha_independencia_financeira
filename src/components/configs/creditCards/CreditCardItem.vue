@@ -6,7 +6,7 @@
       </q-item-section>
       <q-item-section>
         <q-item-label>{{name}}</q-item-label>
-        <q-item-label>{{owner.name}}</q-item-label>
+        <q-item-label>{{ownerId}}</q-item-label>
         <q-item-label>Fechamento: {{closingDay}}</q-item-label>
         <q-item-label>Pagamento: {{payDay}}</q-item-label>
       </q-item-section>
@@ -23,8 +23,8 @@ export default {
   props: [
     'id',
     'name',
-    'brand',
-    'owner',
+    'brandId',
+    'ownerId',
     'closingDay',
     'payDay'
   ],

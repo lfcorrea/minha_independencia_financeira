@@ -1,6 +1,6 @@
 <template>
 <div>
-  <q-item v-ripple :active="active">
+  <q-item v-ripple>
     <q-item-section avatar>
       <q-icon :name="avatar" :color="avatarColor"></q-icon>
     </q-item-section>

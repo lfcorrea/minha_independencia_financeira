@@ -3,6 +3,8 @@ import Vuex from 'vuex'
 
 // import example from './module-example'
 import people from './people'
+import accounts from './accounts'
+import creditCards from './creditCards'
 
 Vue.use(Vuex)
 
@@ -19,7 +21,9 @@ export default function (/* { ssrContext } */) {
   const Store = new Vuex.Store({
     modules: {
       // example
-      people
+      people,
+      accounts,
+      creditCards
     },
 
     // enable strict mode (adds overhead!)
