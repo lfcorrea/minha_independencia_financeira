@@ -1,7 +1,7 @@
 <template>
     <div>
         <q-list bordered separator>
-            <PersonItem v-for="person of people"
+            <PersonItem v-for="person of allPeople"
                 :key="person.id"
                 v-bind:id="person.id"
                 v-bind:name="person.name"
@@ -27,6 +27,7 @@
 </template>
 
 <script>
+import { mapGetters, mapActions } from 'vuex'
 import PersonItem from './PersonItem'
 import PersonForm from './PersonForm'
 
@@ -38,18 +39,20 @@ export default {
   },
   data () {
     return {
-      showAddPersonDialog: false,
-      people: [
-        { id: '1', name: 'Person_1', avatar: 'face', avatarColor: 'blue' },
-        { id: '2', name: 'Person_2', avatar: 'child_care', avatarColor: 'yellow' },
-        { id: '3', name: 'Person_3', avatar: 'pets', avatarColor: 'green' }
-      ]
+      showAddPersonDialog: false
     }
   },
   methods: {
+    ...mapActions(['fetchPeople']),
     onAddPersonClick () {
       alert('Click')
     }
+  },
+  computed: {
+    ...mapGetters(['allPeople'])
+  },
+  created () {
+    this.fetchPeople()
   }
 }
 </script>
