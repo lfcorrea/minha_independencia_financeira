@@ -5,6 +5,7 @@ import Vuex from 'vuex'
 import people from './people'
 import accounts from './accounts'
 import creditCards from './creditCards'
+import budget from './budget'
 
 Vue.use(Vuex)
 
@@ -23,7 +24,8 @@ export default function (/* { ssrContext } */) {
       // example
       people,
       accounts,
-      creditCards
+      creditCards,
+      budget
     },
 
     // enable strict mode (adds overhead!)
