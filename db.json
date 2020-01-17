@@ -200,6 +200,654 @@
       "logo": "account_balance_wallet"
     }
   ],
+  "categoriesGroups": {
+    "incomes": {
+      "fixeds":[
+        {
+          "id": "0e0d6df3-39c7-48bc-87cb-7df79bbd90d9",
+          "category": "Salário Nando",
+          "meaning": "",
+          "rank": ""
+        },
+        {
+          "id": "2abc6433-b3aa-4011-8fb8-d80cf3e6c4b1",
+          "category": "Salário Sheila",
+          "meaning": "",
+          "rank": ""
+        },
+        {
+          "id": "61a94cdf-39a5-47d4-ba9b-50f128a6ddb5",
+          "category": "Aluguéis",
+          "meaning": "",
+          "rank": ""
+        }
+      ],
+      "variables":{
+        "taxed":[
+          {
+            "id": "d903a43c-24ad-4120-a6cd-38bb09fa4956",
+            "category": "Notas Fiscais Emitidas",
+            "meaning": "",
+            "rank": ""
+          }
+        ],
+        "untaxed":[
+          {
+            "id": "e978125a-d937-4196-9b7b-0bae68b35953",
+            "category": "13. Salário Líquido",
+            "meaning": "",
+            "rank": ""
+          },
+          {
+            "id": "bfda2dcb-f96f-43c7-ba48-477eb0230c3a",
+            "category": "Férias",
+            "meaning": "",
+            "rank": ""
+          },
+          {
+            "id": "1bafba8b-c5a1-4df1-b4c0-a01283cdddd6",
+            "category": "Bônus e Extras",
+            "meaning": "",
+            "rank": ""
+          }
+        ]
+      }
+    },
+    "outcomes": {
+      "fixeds": [
+        {
+          "id": "e410ed7b-2cd6-46f0-8ee3-ea78c938cf8f",
+          "category": "Habitação",
+          "meaning": "",
+          "rank": "",
+          "categories": [
+            {
+              "id": "24ab2a6c-bcab-41bd-9b3f-e3d5ae781b73",
+              "category": "Aluguel / Prestação",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "a9cdd925-c5df-4639-b501-c81e669b2297",
+              "category": "Condomínio",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "4a856b0a-3f28-49fc-bbe7-38c09487b9bd",
+              "category": "IPTU + Taxas Municipais",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "ca0ea91e-cf07-4d04-b49e-4e95b45b8eb4",
+              "category": "Conta de energia",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "8777772e-3b53-40ee-8d87-829207a77aba",
+              "category": "Conta de água",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "6f63eb88-94af-404e-ab9a-9cc230ce3c02",
+              "category": "Conta de Gás",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "19e44d6d-b03f-4412-8774-8d6c5ac04783",
+              "category": "Telefone fixo",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "cf1d85fc-9a96-442b-b1ce-5eeb449f2465",
+              "category": "Telefones Celulares",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "4177bd81-35b4-455c-968d-2a37fe645e35",
+              "category": "Internet",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "0f46e141-c8d0-4d92-b404-93861e307f32",
+              "category": "TV por assinatura",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "569c833f-0fe9-47fe-8462-48aaf7eb9a03",
+              "category": "Supermercado",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "ed51092b-7a8c-4c62-b3d2-489f6143ea0b",
+              "category": "Feira",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "b3f9ef34-34d0-47d1-9ece-2e35edabf2b5",
+              "category": "Padaria",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "7fae934f-a1eb-4520-acc8-d11aa1558416",
+              "category": "Empregados",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "270835f9-5429-420b-8808-29fbc3f365ec",
+              "category": "Lavanderia",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "dc40bef4-bb9a-45f4-9fef-db24113c4f15",
+              "category": "Outros",
+              "meaning": "",
+              "rank": ""
+            }
+          ]
+        },
+        {
+          "id": "a70c98b1-a42a-4e94-96e8-476b564140c9",
+          "category": "Saúde",
+          "meaning": "",
+          "rank": "",
+          "categories": [
+            {
+              "id": "1a868e4f-249a-4568-9699-7aa101a08927",
+              "category": "Plano de Saúde",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "36cce4d7-3e20-4e8e-8b61-bc7f86cf948e",
+              "category": "Médicos e Terapeutas",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "4017538b-7345-4c4e-83ca-61d035dfd108",
+              "category": "Dentista",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "7a2be4ea-1804-475f-9805-570c1aa1dd55",
+              "category": "Medicamentos",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "d4270adf-74c8-4b2b-af7c-b978246b720e",
+              "category": "Outros",
+              "meaning": "",
+              "rank": ""
+            }
+          ]
+        },
+        {
+          "id": "4ecd4a6c-1bf3-4401-809c-16a6aa855d53",
+          "category": "Transporte",
+          "meaning": "",
+          "rank": "",
+          "categories": [
+            {
+              "id": "301db159-76ee-4f8a-a1f5-2c123b5644ca",
+              "category": "Prestação",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "b50981f0-1cc2-4f69-94e8-8c6b4f172ce8",
+              "category": "IPVA + Seguro Obrigatório + Bombeiros",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "0df57c46-8f8f-45b0-8407-55846140fbb4",
+              "category": "Seguro",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "a3e130bd-aac9-465f-b172-942376a61c76",
+              "category": "Combustível",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "2171ff00-1530-40fb-8a3c-9ff307d52f57",
+              "category": "Estacionamentos",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "aafbf691-11da-4b11-a860-ffb880addbac",
+              "category": "Lavagens",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "c860f75b-5305-401d-b3f9-9cf5ee5b494d",
+              "category": "Mecânico",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "a1f9e0c3-8a61-418c-aa83-93ace1ba8b2a",
+              "category": "Multas",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "bc9b6353-a263-4cdb-bd05-e2b47eec4f42",
+              "category": "Ônibus",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "1facb7dc-70d4-4b3e-b32d-98bc5cceead8",
+              "category": "Metrô",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "8ba14a77-fa71-4f40-9a44-b47890537a41",
+              "category": "Trem",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "45a2bdcb-5e5f-47be-a99b-707636b84e08",
+              "category": "Táxi/Uber",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "ee0910db-a2d1-4c34-9d6d-d417bb7b0106",
+              "category": "Outros",
+              "meaning": "",
+              "rank": ""
+            }
+          ]
+        },
+        {
+          "id": "7188ee0b-b6e3-4f02-9f3f-6ccc62ec09f6",
+          "category": "Despesas Pessoais",
+          "meaning": "",
+          "rank": "",
+          "categories": [
+            {
+              "id": "35eeaad5-7605-4851-8684-df8b8e2513ec",
+              "category": "Higiene Pessoal (unha, depilação, etc.)",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "167c408d-7376-4474-b370-1f51771bae87",
+              "category": "Cosméticos",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "81311ff0-2be7-4de2-b9c4-7d410595652e",
+              "category": "Cabeleireiro",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "93bba811-87df-4ae3-9d19-bd8828981e46",
+              "category": "Vestuário",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "9a0b9655-0dff-4cdc-8ab5-41da53b8d9bb",
+              "category": "Academia",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "5696260a-9d2c-4a68-a02a-7caf8c38ea81",
+              "category": "Esportes",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "204a0437-11e0-434f-bbfb-b8950e8ec175",
+              "category": "Cartões de Crédito (anuidades)",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "c744dc9f-c839-4bd6-b308-65b11e6f864f",
+              "category": "Mesadas",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "2df43a0f-c8ae-43d6-9491-d97d6d400f85",
+              "category": "Outros",
+              "meaning": "",
+              "rank": ""
+            }
+          ]
+        },
+        {
+          "id": "9dd96605-ca44-4eb0-bdfc-c14a1136a922",
+          "category": "Educação",
+          "meaning": "",
+          "rank": "",
+          "categories": [
+            {
+              "id": "cc98b942-b595-4239-98d1-5ac81b33fd8e",
+              "category": "Escola / Faculdade",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "785e7988-6c14-4845-baac-6322e28070bb",
+              "category": "Cursos",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "fac1ee31-c6ac-4827-afab-c267e6c50867",
+              "category": "Ensino à Distância",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "3c3f8e4a-2035-4444-acac-f7333090cd83",
+              "category": "Material Escolar",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "c2a00a5c-b07f-46b4-9dd9-64039896129b",
+              "category": "Uniformes",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "c4c12b9f-a801-4164-9a1e-1e8257d71142",
+              "category": "Outros",
+              "meaning": "",
+              "rank": ""
+            }
+          ]
+        },
+        {
+          "id": "6e398d59-5dfa-4901-89ce-dc24ef438b53",
+          "category": "Lazer",
+          "meaning": "",
+          "rank": "",
+          "categories": [
+            {
+              "id": "6eacb87d-f2e7-44c4-a5c5-1aa9262ad06f",
+              "category": "Restaurantes",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "1121caf2-c2fb-4418-842d-192a305837a2",
+              "category": "Cafés, bares e boates",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "572d2af4-a519-4929-b437-557582161e9a",
+              "category": "Livraria, jornais e revistas",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "0dd696ed-d78c-4b9f-854e-0164509000e8",
+              "category": "Games",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "602a10ab-dc0c-4648-851b-529c5037a791",
+              "category": "Mídias e Acessórios",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "38390ae2-ee23-4242-922a-1e903cfa68d1",
+              "category": "Passagens",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "8b109512-5952-4bc0-853c-56acd204fec5",
+              "category": "Hospedagens",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "a17ef8e8-981f-40a8-b2dd-da21e04a48b7",
+              "category": "Passeios",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "22f19ab2-b3e4-49dc-992d-438457e8bcca",
+              "category": "Outros",
+              "meaning": "",
+              "rank": ""
+            }
+          ]
+        },
+        {
+          "id": "c0afb566-2360-4cae-abe2-ab7190a51e67",
+          "category": "Outros",
+          "meaning": "",
+          "rank": "",
+          "categories": [
+            {
+              "id": "5db5e69a-96e6-427a-8606-d2397232ca46",
+              "category": "Tarifas Bancárias",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "2d714ea2-79dd-4198-ad6c-ffb076b90b89",
+              "category": "Carnê Leão",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "a7a77f0c-e339-4d1f-a91d-d64be6d744b7",
+              "category": "Pensões",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "d806c61b-e346-496a-b1bc-e3fc2577407e",
+              "category": "Gorjetas / Caixinhas",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "63458a23-c4ff-44b2-890b-fe89ed3e468a",
+              "category": "Doações e Dízimos",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "a38c7c59-040a-4c1f-aaee-86e039adb5bc",
+              "category": "Extras diários",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "a41b5a0d-d35a-4256-8adb-e13a2e68c1be",
+              "category": "Outros",
+              "meaning": "",
+              "rank": ""
+            }
+          ]
+        },
+        {
+          "id": "fd5f6ed9-13ca-4bbb-8834-41e1969c442f",
+          "category": "Empresa - Despesas Fixas",
+          "meaning": "",
+          "rank": "",
+          "categories": [
+            {
+              "id": "41b490a8-cc67-4ee6-afbf-82a001b22651",
+              "category": "INSS",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "18332711-bef6-4a2a-b01a-01a5a85258fe",
+              "category": "COFINS",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "a34788e0-cfdb-40c2-9eee-e7a1d945d56a",
+              "category": "ISS",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "ceec4149-eac7-43d0-be18-396bda5eb306",
+              "category": "PIS",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "d8098415-0a95-464b-8daa-c61421d7440a",
+              "category": "Mensalidade Contador",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "75785813-c6e6-4e14-98eb-86bc66a8263a",
+              "category": "Despesas Gerais Médias",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "d94d1af8-26a8-4e2c-bfbc-8c8d605ddc5b",
+              "category": "IR",
+              "meaning": "",
+              "rank": ""
+            },
+            {
+              "id": "40c96fca-552a-4438-93ae-933c339fc1b5",
+              "category": "CSLL",
+              "meaning": "",
+              "rank": ""
+            }
+          ]
+        }
+      ],
+      "tempVariables": [
+        {
+          "id": "d2129498-9483-418c-a281-895210f6979c",
+          "category": "Curso de Idiomas",
+          "meaning": "",
+          "rank": ""
+        },
+        {
+          "id": "b1a2b789-3674-435a-b64c-1af1fd0662f9",
+          "category": "Manutenção e Reparos",
+          "meaning": "",
+          "rank": ""
+        },
+        {
+          "id": "fbf40799-b5a1-4bf7-8fa9-9efcd0a72cf6",
+          "category": "Médicos e Terapeutas Esporádicos",
+          "meaning": "",
+          "rank": ""
+        },
+        {
+          "id": "88f38398-3810-4cac-afec-6889ef0180da",
+          "category": "Dedetização",
+          "meaning": "",
+          "rank": ""
+        },
+        {
+          "id": "b2fe870e-f468-4dec-a0c9-447a4c4624c4",
+          "category": "Fundo para Viagens / Gastos de Férias",
+          "meaning": "",
+          "rank": ""
+        },
+        {
+          "id": "be10b821-7a06-416f-bcf8-3ae392d00f71",
+          "category": "Correio",
+          "meaning": "",
+          "rank": ""
+        },
+        {
+          "id": "9aeb9eb8-26ef-44ef-8d67-ac0d6822b5f7",
+          "category": "Presentes do Mês",
+          "meaning": "",
+          "rank": ""
+        },
+        {
+          "id": "e2130af8-91e4-41ad-8e4f-21d9fc485933",
+          "category": "Utilidades Domésticas e Decoração",
+          "meaning": "",
+          "rank": ""
+        },
+        {
+          "id": "2b7e4d5f-32e2-460d-9413-df0c68d0eb66",
+          "category": "Manutenção de Veículo",
+          "meaning": "",
+          "rank": ""
+        },
+        {
+          "id": "0a7b8f4c-3496-4f39-a35d-724362ee1d84",
+          "category": "Prestações",
+          "meaning": "",
+          "rank": ""
+        }
+      ]
+    },
+    "investiments":[
+      {
+        "id": "77466215-052d-45eb-ba15-e7f828dd562b",
+        "category": "Investimento A",
+        "meaning": "",
+        "rank": ""
+      },
+      {
+        "id": "b0b00216-a515-4cfe-8325-0c67da9549d0",
+        "category": "Investimento B",
+        "meaning": "",
+        "rank": ""
+      },
+      {
+        "id": "6561c5ad-822e-4396-b9ab-dc53511330dd",
+        "category": "Investimento C",
+        "meaning": "",
+        "rank": ""
+      },
+      {
+        "id": "26855209-f6c0-4455-b529-b3baf2500456",
+        "category": "Investimento D",
+        "meaning": "",
+        "rank": ""
+      }
+    ]
+  },
   "budget": [
     {
       "id": "8899afa5-8f60-41d3-9414-8d5a6f16371f",
