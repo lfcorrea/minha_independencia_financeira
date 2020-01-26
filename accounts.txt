@@ -1,0 +1,5 @@
+1;1;1;1;1;1000;Conta Corrente BB - Nando
+2;1;2;1;1;2000;Poupança BB - Nando
+3;3;1;1;1;3000;Conta Corrente Caixa - Nando
+4;2;1;1;1;5000;Conta Corrente Santander - Nando
+5;118;1;1;1;200;Conta Corrente NuBank - Nando

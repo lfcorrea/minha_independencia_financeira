@@ -1,0 +1,4 @@
+1;Débito em conta
+2;Cartão de Crédito
+3;Cartão de Débito
+4;Carteira

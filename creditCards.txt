@@ -1,0 +1,6 @@
+1;2;1;1;Master Santander Elite;1;1
+2;2;1;1;Master Santander Free;1;1
+3;2;1;1;Master BB;1;1
+4;1;1;1;Visa BB;1;1
+5;2;1;1;Master Caixa;1;1
+6;2;1;1;Master NuBank;1;1

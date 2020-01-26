@@ -1,0 +1,8 @@
+[
+{"id": "id", "bankId": "bankId", "accountTypeId": "accountType", "personId": "personId", "userId": "userId", "balance": "balance", "description": "description", "avatar": ""}, 
+{"id": "1", "bankId": "1", "accountTypeId": "1", "personId": "1", "userId": "1", "balance": "1000", "description": "Conta Corrente BB - Nando", "avatar": ""}, 
+{"id": "2", "bankId": "1", "accountTypeId": "2", "personId": "1", "userId": "1", "balance": "2000", "description": "Poupança BB - Nando", "avatar": ""}, 
+{"id": "3", "bankId": "3", "accountTypeId": "1", "personId": "1", "userId": "1", "balance": "3000", "description": "Conta Corrente Caixa - Nando", "avatar": ""}, 
+{"id": "4", "bankId": "2", "accountTypeId": "1", "personId": "1", "userId": "1", "balance": "5000", "description": "Conta Corrente Santander - Nando", "avatar": ""}, 
+{"id": "5", "bankId": "118", "accountTypeId": "1", "personId": "1", "userId": "1", "balance": "200", "description": "Conta Corrente NuBank - Nando", "avatar": ""}
+]

@@ -1,0 +1,119 @@
+1;001;Banco do Brasil S.A.
+2;033;Banco Santander (Brasil) S.A.
+3;104;Caixa Econômica Federal
+4;237;Banco Bradesco S.A.
+5;341;Banco Itaú S.A.
+6;356;Banco Real S.A. (antigo)
+7;389;Banco Mercantil do Brasil S.A.
+8;399;HSBC Bank Brasil S.A. - Banco Múltiplo
+9;422;Banco Safra S.A.
+10;453;Banco Rural S.A.
+11;633;Banco Rendimento S.A.
+12;652;Itaú Unibanco Holding S.A.
+13;745;Banco Citibank S.A.
+14;246;Banco ABC Brasil S.A.
+15;025;Banco Alfa S.A.
+16;641;Banco Alvorada S.A.
+17;029;Banco Banerj S.A.
+18;038;Banco Banestado S.A.
+19;000;Banco Bankpar S.A.
+20;740;Banco Barclays S.A.
+21;107;Banco BBM S.A.
+22;031;Banco Beg S.A.
+23;096;Banco BM&F de Serviços de Liquidação e Custódia S.A
+24;318;Banco BMG S.A.
+25;752;Banco BNP Paribas Brasil S.A.
+26;248;Banco Boavista Interatlântico S.A.
+27;036;Banco Bradesco BBI S.A.
+28;204;Banco Bradesco Cartões S.A.
+29;225;Banco Brascan S.A.
+30;044;Banco BVA S.A.
+31;263;Banco Cacique S.A.
+32;473;Banco Caixa Geral - Brasil S.A.
+33;222;Banco Calyon Brasil S.A.
+34;040;Banco Cargill S.A.
+35;M08;Banco Citicard S.A.
+36;M19;Banco CNH Capital S.A.
+37;215;Banco Comercial e de Investimento Sudameris S.A.
+38;756;Banco Cooperativo do Brasil S.A. - BANCOOB
+39;748;Banco Cooperativo Sicredi S.A.
+40;505;Banco Credit Suisse (Brasil) S.A.
+41;229;Banco Cruzeiro do Sul S.A.
+42;003;Banco da Amazônia S.A.
+43;083-3;Banco da China Brasil S.A.
+44;707;Banco Daycoval S.A.
+45;M06;Banco de Lage Landen Brasil S.A.
+46;024;Banco de Pernambuco S.A. - BANDEPE
+47;456;Banco de Tokyo-Mitsubishi UFJ Brasil S.A.
+48;214;Banco Dibens S.A.
+49;047;Banco do Estado de Sergipe S.A.
+50;037;Banco do Estado do Pará S.A.
+51;041;Banco do Estado do Rio Grande do Sul S.A.
+52;004;Banco do Nordeste do Brasil S.A.
+53;265;Banco Fator S.A.
+54;M03;Banco Fiat S.A.
+55;224;Banco Fibra S.A.
+56;626;Banco Ficsa S.A.
+57;394;Banco Finasa BMC S.A.
+58;M18;Banco Ford S.A.
+59;233;Banco GE Capital S.A.
+60;734;Banco Gerdau S.A.
+61;M07;Banco GMAC S.A.
+62;612;Banco Guanabara S.A.
+63;M22;Banco Honda S.A.
+64;063;Banco Ibi S.A. Banco Múltiplo
+65;M11;Banco IBM S.A.
+66;604;Banco Industrial do Brasil S.A.
+67;320;Banco Industrial e Comercial S.A.
+68;653;Banco Indusval S.A.
+69;630;Banco Intercap S.A.
+70;249;Banco Investcred Unibanco S.A.
+71;184;Banco Itaú BBA S.A.
+72;479;Banco ItaúBank S.A
+73;M09;Banco Itaucred Financiamentos S.A.
+74;376;Banco J. P. Morgan S.A.
+75;074;Banco J. Safra S.A.
+76;217;Banco John Deere S.A.
+77;065;Banco Lemon S.A.
+78;600;Banco Luso Brasileiro S.A.
+79;755;Banco Merrill Lynch de Investimentos S.A.
+80;746;Banco Modal S.A.
+81;151;Banco Nossa Caixa S.A.
+82;045;Banco Opportunity S.A.
+83;623;Banco Panamericano S.A.
+84;611;Banco Paulista S.A.
+85;643;Banco Pine S.A.
+86;638;Banco Prosper S.A.
+87;747;Banco Rabobank International Brasil S.A.
+88;M16;Banco Rodobens S.A.
+89;072;Banco Rural Mais S.A.
+90;250;Banco Schahin S.A.
+91;749;Banco Simples S.A.
+92;366;Banco Société Générale Brasil S.A.
+93;637;Banco Sofisa S.A.
+94;464;Banco Sumitomo Mitsui Brasileiro S.A.
+95;082-5;Banco Topázio S.A.
+96;M20;Banco Toyota do Brasil S.A.
+97;634;Banco Triângulo S.A.
+98;208;Banco UBS Pactual S.A.
+99;M14;Banco Volkswagen S.A.
+100;655;Banco Votorantim S.A.
+101;610;Banco VR S.A.
+102;370;Banco WestLB do Brasil S.A.
+103;021;BANESTES S.A. Banco do Estado do Espirito Santo
+104;719;Banif-Banco Internacional do Funchal (Brasil)S.A.
+105;073;BB Banco Popular do Brasil S.A.
+106;078;BES Investimento do Brasil S.A. - Banco de Investimento
+107;069;BPN Brasil Banco Múltiplo S.A.
+108;070;BRB - Banco de Brasilia S.A.
+109;477;Citibank N.A.
+110;081-7;Concórdia Banco S.A.
+111;487;Deutsche Bank S.A. - Banco Alemão
+112;751;Dresdner Bank Brasil S.A. - Banco Múltiplo
+113;062;Hipercard Banco Múltiplo S.A.
+114;492;ING Bank N.V.
+115;488;JPMorgan Chase Bank
+116;409;UNIBANCO - União de Bancos Brasileiros S.A.
+117;230;Unicard Banco Múltiplo S.A.
+118;260;Nubank
+119;-1;Outros

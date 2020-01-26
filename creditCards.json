@@ -1,0 +1,8 @@
+[
+{"id": "1", "ccBrandId": "2", "personId": "2", "userId": "1", "description": "Master Santander Elite", "closingDay": "1", "payDay": "1", "avatar": ""}, 
+{"id": "2", "ccBrandId": "2", "personId": "2", "userId": "1", "description": "Master Santander Free", "closingDay": "1", "payDay": "1", "avatar": ""}, 
+{"id": "3", "ccBrandId": "2", "personId": "2", "userId": "1", "description": "Master BB", "closingDay": "1", "payDay": "1", "avatar": ""}, 
+{"id": "4", "ccBrandId": "1", "personId": "1", "userId": "1", "description": "Visa BB", "closingDay": "1", "payDay": "1", "avatar": ""}, 
+{"id": "5", "ccBrandId": "2", "personId": "2", "userId": "1", "description": "Master Caixa", "closingDay": "1", "payDay": "1", "avatar": ""}, 
+{"id": "6", "ccBrandId": "2", "personId": "2", "userId": "1", "description": "Master NuBank", "closingDay": "1", "payDay": "1", "avatar": ""}
+]

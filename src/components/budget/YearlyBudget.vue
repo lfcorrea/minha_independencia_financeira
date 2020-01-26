@@ -16,8 +16,8 @@
       >
         <template v-slot:body="props">
           <q-tr :props="props" :class="props.row.rowClass">
-            <q-td key="category" :props="props" :class="props.row.class">
-              {{ props.row.category}}
+            <q-td key="description" :props="props" :class="props.row.class">
+              {{ props.row.description}}
             </q-td>
             <q-td key="meaning" :props="props" :class="props.row.class">
               {{ props.row.meaning}}
@@ -25,44 +25,44 @@
             <q-td key="rank" :props="props" :class="props.row.class">
               {{ props.row.rank}}
             </q-td>
-            <q-td key="valueJan" :props="props">
-              {{props.row.valueJan}}
+            <q-td key="january" :props="props">
+              {{props.row.january}}
             </q-td>
-            <q-td key="valueFeb" :props="props">
-              {{props.row.valueFeb}}
+            <q-td key="february" :props="props">
+              {{props.row.february}}
             </q-td>
-            <q-td key="valueMar" :props="props">
-              {{props.row.valueMar}}
+            <q-td key="march" :props="props">
+              {{props.row.march}}
             </q-td>
-            <q-td key="valueApr" :props="props">
-              {{props.row.valueApr}}
+            <q-td key="april" :props="props">
+              {{props.row.april}}
             </q-td>
-            <q-td key="valueMay" :props="props">
-              {{props.row.valueMay}}
+            <q-td key="may" :props="props">
+              {{props.row.may}}
             </q-td>
-            <q-td key="valueJun" :props="props">
-              {{props.row.valueJun}}
+            <q-td key="june" :props="props">
+              {{props.row.june}}
             </q-td>
-            <q-td key="valueJul" :props="props">
-              {{props.row.valueJul}}
+            <q-td key="july" :props="props">
+              {{props.row.july}}
             </q-td>
-            <q-td key="valueAug" :props="props">
-              {{props.row.valueAug}}
+            <q-td key="august" :props="props">
+              {{props.row.august}}
             </q-td>
-            <q-td key="valueSep" :props="props">
-              {{props.row.valueSep}}
+            <q-td key="september" :props="props">
+              {{props.row.september}}
             </q-td>
-            <q-td key="valueOct" :props="props">
-              {{props.row.valueOct}}
+            <q-td key="october" :props="props">
+              {{props.row.october}}
             </q-td>
-            <q-td key="valueNov" :props="props">
-              {{props.row.valueNov}}
+            <q-td key="november" :props="props">
+              {{props.row.november}}
             </q-td>
-            <q-td key="valueDec" :props="props">
-              {{props.row.valueDec}}
+            <q-td key="december" :props="props">
+              {{props.row.december}}
             </q-td>
-            <q-td key="valueYear" :props="props">
-              {{props.row.valueYear}}
+            <q-td key="year" :props="props">
+              {{props.row.year}}
             </q-td>
           </q-tr>
         </template>
@@ -82,22 +82,22 @@ export default {
         rowsPerPage: 0
       },
       columns: [
-        { name: 'category', label: 'Categoria', field: 'category', align: 'left' },
+        { name: 'description', label: 'Categoria', field: 'description', align: 'left' },
         { name: 'meaning', label: 'Significado', field: 'meaning' },
         { name: 'rank', label: 'Rank', field: 'rank' },
-        { name: 'valueJan', label: 'Jan', field: 'valueJan' },
-        { name: 'valueFeb', label: 'Fev', field: 'valueFeb' },
-        { name: 'valueMar', label: 'Mar', field: 'valueMar' },
-        { name: 'valueApr', label: 'Abr', field: 'valueApr' },
-        { name: 'valueMay', label: 'Mai', field: 'valueMay' },
-        { name: 'valueJun', label: 'Jun', field: 'valueJun' },
-        { name: 'valueJul', label: 'Jul', field: 'valueJul' },
-        { name: 'valueAug', label: 'Ago', field: 'valueAug' },
-        { name: 'valueSep', label: 'Set', field: 'valueSep' },
-        { name: 'valueOct', label: 'Out', field: 'valueOct' },
-        { name: 'valueNov', label: 'Nov', field: 'valueNov' },
-        { name: 'valueDec', label: 'Dec', field: 'valueDec' },
-        { name: 'valueYear', label: 'Ano', field: 'valueYear' }
+        { name: 'january', label: 'Jan', field: 'january' },
+        { name: 'february', label: 'Fev', field: 'february' },
+        { name: 'march', label: 'Mar', field: 'march' },
+        { name: 'april', label: 'Abr', field: 'april' },
+        { name: 'may', label: 'Mai', field: 'may' },
+        { name: 'june', label: 'Jun', field: 'june' },
+        { name: 'july', label: 'Jul', field: 'july' },
+        { name: 'august', label: 'Ago', field: 'august' },
+        { name: 'september', label: 'Set', field: 'september' },
+        { name: 'october', label: 'Out', field: 'october' },
+        { name: 'november', label: 'Nov', field: 'november' },
+        { name: 'december', label: 'Dec', field: 'december' },
+        { name: 'year', label: 'Ano', field: 'year' }
       ]
     }
   },

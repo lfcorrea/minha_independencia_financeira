@@ -1,0 +1,4 @@
+1;Conta Corrente
+2;Poupança
+3;Carteira
+4;Conta Investimento

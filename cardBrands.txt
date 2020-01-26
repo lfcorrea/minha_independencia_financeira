@@ -1,0 +1,26 @@
+1;Visa
+2;Mastercard
+3;American Express
+4;Elo
+5;Discover Network
+6;Banescard
+7;Sorocard
+8;Policard
+9;Valecard
+10;Agicard
+11;JCB
+12;CredSystem
+13;Cabal
+14;Green Card
+15;Verocheque
+16;Avista
+17;Aura
+18;Diners Club International
+19;NuBank
+20;Hiper
+21;Hipercard
+22;Sollo
+23;Stone
+24;Alelo
+25;Redeshop
+26;Ticket
