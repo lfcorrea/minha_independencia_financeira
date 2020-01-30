@@ -1,0 +1,3 @@
+1;1;1;2;1000;Salario Nando Janeiro;01/01/2020
+2;1;1;2;1050;Salario Nando Fevereiro;02/01/2020
+3;2;1;3;1100;Salario Sheila Janeiro;01/02/2020

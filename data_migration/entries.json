@@ -1,0 +1,5 @@
+[
+{"id": "1", "personId": "1", "userId": "1", "categoryId": "2", "value": "1000", "description": "Salario Nando Janeiro", "date": "01/01/2020"}, 
+{"id": "2", "personId": "1", "userId": "1", "categoryId": "2", "value": "1050", "description": "Salario Nando Fevereiro", "date": "02/01/2020"}, 
+{"id": "3", "personId": "2", "userId": "1", "categoryId": "3", "value": "1100", "description": "Salario Sheila Janeiro", "date": "01/02/2020"}
+]
