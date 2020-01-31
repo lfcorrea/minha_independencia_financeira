@@ -4,9 +4,9 @@
             <AccountItem v-for="account of allAccounts"
                 :key="account.id"
                 v-bind:id="account.id"
-                v-bind:name="account.name"
+                v-bind:name="account.description"
                 v-bind:bank="account.bankId"
-                v-bind:icon="account.icon"
+                v-bind:icon="account.avatar"
                 v-bind:owner="account.ownerId"
                 v-bind:type="account.type"
             />

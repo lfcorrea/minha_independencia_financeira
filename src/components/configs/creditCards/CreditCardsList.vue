@@ -4,7 +4,7 @@
             <CreditCardItem v-for="creditCard of allCreditCards"
                 :key="creditCard.id"
                 v-bind:id="creditCard.id"
-                v-bind:name="creditCard.name"
+                v-bind:name="creditCard.description"
                 v-bind:brandId="creditCard.brandId"
                 v-bind:ownerId="creditCard.ownerId"
                 v-bind:closingDay="creditCard.closingDay"

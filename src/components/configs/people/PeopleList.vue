@@ -4,9 +4,11 @@
             <PersonItem v-for="person of allPeople"
                 :key="person.id"
                 v-bind:id="person.id"
+                v-bind:user-id="person.userId"
                 v-bind:name="person.name"
                 v-bind:avatar="person.avatar"
                 v-bind:avatar-color="person.avatarColor"
+                v-bind:default="person.default"
             />
         </q-list>
         <q-btn @click="showAddPersonDialog = !showAddPersonDialog" round color="primary" icon="add" ></q-btn>

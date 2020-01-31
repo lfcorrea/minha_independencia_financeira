@@ -1,2 +1,2 @@
-1;1;Nando;blue;true
-2;1;Sheila;pink;false
+1;1;Nando;blue;true;face
+2;1;Sheila;pink;false;mood

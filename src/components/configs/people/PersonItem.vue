@@ -15,7 +15,7 @@
 <script>
 export default {
   name: 'PersonItem',
-  props: ['id', 'name', 'avatar', 'avatarColor'],
+  props: ['id', 'user-id', 'name', 'avatar', 'avatarColor', 'default'],
   methods: {
     onEditClick () {
       alert('On Person click')

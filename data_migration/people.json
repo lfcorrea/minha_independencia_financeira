@@ -1,4 +1,4 @@
 [
-{"id": "1", "userId": "1", "name": "Nando", "avatar": "", "avatarColor": "blue", "default": "true"}, 
-{"id": "2", "userId": "1", "name": "Sheila", "avatar": "", "avatarColor": "pink", "default": "false"}
+{"id": "1", "userId": "1", "name": "Nando", "avatar": "face", "avatarColor": "blue", "default": "true"}, 
+{"id": "2", "userId": "1", "name": "Sheila", "avatar": "mood", "avatarColor": "pink", "default": "false"}
 ]
